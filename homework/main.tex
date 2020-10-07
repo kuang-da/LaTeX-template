@@ -1,0 +1,157 @@
+\documentclass[twoside,10pt]{article}
+
+%================================ PREAMBLE ==================================
+
+%--------- Packages -----------
+\usepackage{fullpage}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{url}
+\usepackage{physics}
+\usepackage{float}
+%\usepackage{algorithm,algorithmic}
+
+%----------Spacing-------------
+%\setlength{\oddsidemargin}{0.25 in}
+%\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+%\setlength{\textwidth}{6.5 in}
+%\setlength{\textheight}{9.4 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+
+%----------Header--------------
+\newcommand{\psetsubmission}[2]{
+   \pagestyle{myheadings}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{\vspace{2mm}
+    \hbox to 6.28in { {\bf STAT 515: Advanced Statistical Inference I} \hfill {\bf Fall 2020} }
+       \vspace{6mm}
+       \hbox to 6.28in { \hfill {\Large Problem Set #1} \hfill }
+       \vspace{6mm}
+       \hbox to 6.28in { Name: \emph{#2} \hfill }
+      \vspace{2mm}}
+   }
+   \end{center}
+   \markboth{STAT 515: Advanced Statistical Inference I, Fall 2020, Problem Set #1}{#2}
+   \vspace*{4mm}
+}
+
+%--------Environments----------
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newenvironment{pf}{{\noindent\sc Proof. }}{\qed}
+\newenvironment{map}{\[\begin{array}{cccc}} {\end{array}\]}
+
+\theoremstyle{definition}
+\newtheorem*{defn}{Definition}
+\newtheorem{exmp}{Example}
+\newtheorem*{prob}{Problem}
+\newtheorem*{exer}{Exercise}
+
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+
+%---------Definitions----------
+\newcommand{\Fig}[1]{Figure~\ref{#1}}
+\newcommand{\Sec}[1]{Section~\ref{#1}}
+\newcommand{\Tab}[1]{Table~\ref{#1}}
+\newcommand{\Tabs}[2]{Tables~\ref{#1}--\ref{#2}}
+\newcommand{\Eqn}[1]{Eq.~(\ref{#1})}
+\newcommand{\Eqs}[2]{Eqs.~(\ref{#1}-\ref{#2})}
+\newcommand{\Lem}[1]{Lemma~\ref{#1}}
+\newcommand{\Thm}[1]{Theorem~\ref{#1}}
+\newcommand{\Cor}[1]{Corollary~\ref{#1}}
+\newcommand{\App}[1]{Appendix~\ref{#1}}
+\newcommand{\Def}[1]{Definition~\ref{#1}}
+%
+\renewcommand{\>}{{\rightarrow}}
+\renewcommand{\hat}{\widehat}
+\renewcommand{\tilde}{\widetilde}
+\newcommand{\half}{\frac{1}{2}}
+%
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\N}{{\mathbb N}}
+\renewcommand{\P}{{\mathbf P}}
+\newcommand{\E}{{\mathbf E}}
+\newcommand{\Var}{{\mathbf{Var}}}
+\newcommand{\I}{{\mathbf I}}
+\newcommand{\1}{{\mathbf 1}}
+\newcommand{\0}{{\mathbf 0}}
+%
+\newcommand{\sign}{\textup{\textrm{sign}}}
+\newcommand{\er}{\textup{\textrm{er}}}
+\newcommand{\abs}{\textup{\textrm{abs}}}
+\newcommand{\sq}{\textup{\textrm{sq}}}
+\newcommand{\zo}{\textup{\textrm{0-1}}}
+%
+\renewcommand{\H}{{\mathcal H}}
+\newcommand{\F}{{\mathcal F}}
+\newcommand{\X}{{\mathcal X}}
+\newcommand{\Y}{{\mathcal Y}}
+\newcommand{\bX}{{\mathbf X}}
+%
+\newcommand{\p}{{\mathbf p}}
+\newcommand{\q}{{\mathbf q}}
+\renewcommand{\r}{{\mathbf r}}
+\newcommand{\x}{{\mathbf x}}
+\newcommand{\y}{{\mathbf y}}
+\renewcommand{\u}{{\mathbf u}}
+\newcommand{\w}{{\mathbf w}}
+%
+\newcommand{\bloss}{{\boldsymbol \ell}}
+\newcommand{\balpha}{{\boldsymbol \alpha}}
+\newcommand{\bxi}{{\boldsymbol \xi}}
+\newcommand{\bpsi}{{\boldsymbol \psi}}
+\newcommand{\btau}{{\boldsymbol \tau}}
+
+
+%=============================== END PREAMBLE ===============================
+
+%============================ BEGIN DOCUMENT ================================
+
+\begin{document}
+% TODO: change the homework number and student name
+\psetsubmission{1}{Da Kuang}
+
+%\newpage
+%--------------------------------------------- Begin Problem Solutions  --------------------------------------------
+
+
+\begin{enumerate}
+%%%%%%%%%%%%%%%%%%%
+% Question 1
+%%%%%%%%%%%%%%%%%%%
+\item
+Flip a fair coin twice. The sample space is $\{HT, T T, T H, HH\}$. Find
+the $\sigma$-algebra formed by all the subsets of the sample space.
+
+\textbf{Answer:}
+
+% \input{tex/Q1.tex}
+\newpage
+
+\end{enumerate}
+
+
+
+
+\end{document}
+
+%=========================== END DOCUMENT ==============================
+
