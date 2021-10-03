@@ -5,6 +5,6 @@ This is a LaTeX templet for homework. The file is adpated by the templet from Pr
 ## Create a Symbolic Link
 
 ```
-ln -s /home/derek/git-repos/LaTeX-templet/homework templet
+ln -s /home/derek/git-repos/LaTeX-template/homework template
 ```
 
