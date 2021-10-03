@@ -2,4 +2,4 @@
 
 ## Introduction
 
-I organized all the LaTeX templet I have been using into this repository for reference.
+In this repository, I organized three the LaTeX templates I have been using.
